@@ -65,7 +65,7 @@ public class DriverClass {
                     case 4:
                         System.out.println("start bidding, enter done to stop");
                         while (true) {
-                            System.out.println("enter bid");
+                            System.out.println("enter bid"); // input format:  bid user1 19
                             String bidString = scanner.nextLine();
                             if (bidString.equalsIgnoreCase("done")) break;
                             if (isValidBidInput(bidString)) {
